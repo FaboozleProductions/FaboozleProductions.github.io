@@ -1,0 +1,25 @@
+
+body {
+    background-image: url("sleepy.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   }
+h1{
+    color: #fff;
+    font-size: 80px;
+}
+   div.container4 {
+    height: 50em;
+    position: relative 
+}
+div.container4 h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+ }
